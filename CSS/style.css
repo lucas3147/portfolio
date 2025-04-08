@@ -181,6 +181,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 10;
 }
 
 .show-menu .sidebar {
@@ -369,7 +370,7 @@ header {
 
 .card-info h2 {
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #eee;
 }
@@ -410,6 +411,12 @@ header {
     width: 8rem;
     height: 2.5rem;
 
+}
+
+.card-info a {
+    width: 8rem;
+    height: 2.5rem;
+    color: #eee;
 }
 
 .card:hover .card-info {
